@@ -1,0 +1,7 @@
+banco.db
+banco/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
