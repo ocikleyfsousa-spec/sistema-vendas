@@ -1,5 +1,6 @@
 import tkinter as tk
-from modulos import cadastro_servico, cadastro_cliente, venda
+from modulos import cadastro_servico, cadastro_cliente
+from vendas import venda
 
 
 
@@ -27,8 +28,6 @@ botao_servico = tk.Button(
     font=("Arial", 12),
     command=lambda: cadastro_servico.abrir_cadastro_servico(janela_principal)
 )
-
-
 
 botao_servico.grid(
     row=1,
